@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="AutorService">
+      <implementation-class>br.unirio.ccet.soa.service.AutorService</implementation-class>
+    </service>
+    <service name="PublicacaoService">
+      <implementation-class>br.unirio.ccet.soa.service.PublicacaoService</implementation-class>
+    </service>
+    <service name="PublicacaoAutorService">
+      <implementation-class>br.unirio.ccet.soa.service.PublicacaoAutorService</implementation-class>
+    </service>
+  </services>
+  <clients/>
+  <jsr109>false</jsr109>
+</jax-ws>
